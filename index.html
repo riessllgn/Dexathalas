@@ -11,18 +11,31 @@
 
     <!-- File CSS Eksternal -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Gaya untuk Tagline di bawah Logo */
+        .logo-tagline {
+            color: #cbd5e1; /* Warna abu-abu yang lembut */
+            font-size: 0.65rem; /* Ukuran font yang lebih kecil */
+            letter-spacing: 0.1em;
+            text-align: center;
+        }
+    </style>
 </head>
 <body class="bg-[#0f172a] text-slate-200">
 
     <!-- Navigasi -->
     <nav class="glass-nav fixed w-full z-40 px-6 py-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <!-- Logo dan Teks (Ukuran Logo Diperbesar Signifikan) -->
-            <div class="flex items-center space-x-2">
-                <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
-                <div class="text-2xl font-extrabold tracking-tighter text-white">
-                    DEXA<span class="text-orange-500">THALAS</span>
+            <!-- Logo, Tagline, dan Teks Utama -->
+            <div class="flex flex-col items-center">
+                <div class="flex items-center space-x-2">
+                    <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
+                    <div class="text-2xl md:text-3xl font-extrabold tracking-tighter text-white">
+                        DEXA<span class="text-orange-500">THALAS</span>
+                    </div>
                 </div>
+                <!-- Tagline "KARYA AREK UM" ditambahkan di sini -->
+                <p class="logo-tagline">KARYA AREK UM</p>
             </div>
             
             <!-- Desktop Menu -->
@@ -253,12 +266,16 @@
 
     <!-- Footer -->
     <footer class="bg-slate-950 py-12 px-6 border-t border-white/5 text-center">
-        <!-- Logo dan Teks di Footer (Ukuran Logo Diperbesar Signifikan) -->
-        <div class="flex justify-center items-center space-x-2 mb-6">
-            <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
-            <div class="text-2xl font-extrabold tracking-tighter text-white">
-                DEXA<span class="text-orange-500">THALAS</span>
+        <!-- Logo, Tagline, dan Teks Utama di Footer -->
+        <div class="flex flex-col items-center space-y-2">
+            <div class="flex items-center space-x-2">
+                <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
+                <div class="text-2xl md:text-3xl font-extrabold tracking-tighter text-white">
+                    DEXA<span class="text-orange-500">THALAS</span>
+                </div>
             </div>
+            <!-- Tagline "KARYA AREK UM" ditambahkan di sini -->
+            <p class="logo-tagline">KARYA AREK UM</p>
         </div>
         <p class="text-slate-500 text-sm">&copy; 2024 Dexathalas Aquaculture. All Rights Reserved.</p>
         <p class="text-slate-600 text-xs mt-2 italic">Crafted by Adhim, Zhorif, Aries, Ardika, & Hafizh Ayom.</p>
