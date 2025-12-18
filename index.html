@@ -16,14 +16,14 @@
 
     <!-- Navigasi -->
     <nav class="glass-nav fixed w-full z-40 px-6 py-4">
-     <div class="flex items-center">
-    <img src="assets/images/logo-dexathalas.png" alt="Logo Dexathalas" class="h-10 w-auto">
-    <div class="ml-3">
-        <div class="text-xs text-slate-400 tracking-widest">
-            KARYA AREK UM
-        </div>
-    </div>
-</div>
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <!-- Logo dan Teks (Ukuran Logo Diperbesar Signifikan) -->
+            <div class="flex items-center space-x-2">
+                <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
+                <div class="text-2xl font-extrabold tracking-tighter text-white">
+                    DEXA<span class="text-orange-500">THALAS</span>
+                </div>
+            </div>
             
             <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 text-sm font-semibold">
@@ -170,7 +170,7 @@
 
                 <!-- Anggota Tim 3 (Dengan Foto) -->
                 <div class="team-card bg-slate-800 p-6 rounded-2xl text-center scroll-animate">
-                   <img src="assets/images/aries_theo_siallagan.png" alt="Aries Theo Siallagan" class="w-32 h-32 mx-auto mb-4 rounded-full object-cover border-4 border-slate-600">
+                    <img src="assets/images/aries_theo_siallagan.jpg" alt="Aries Theo Siallagan" class="w-32 h-32 mx-auto mb-4 rounded-full object-cover border-4 border-slate-600">
                     <h3 class="text-xl font-bold text-white mb-1">Aries Theo Siallagan</h3>
                     <p class="text-slate-400 text-sm mb-3">Cloud Architecture & Software Eng.</p>
                     <p class="text-slate-500 text-xs leading-relaxed">Merancang arsitektur cloud yang skalabel dan mengembangkan aplikasi backend untuk analisis data yang kuat.</p>
@@ -253,8 +253,12 @@
 
     <!-- Footer -->
     <footer class="bg-slate-950 py-12 px-6 border-t border-white/5 text-center">
-        <div class="text-2xl font-extrabold tracking-tighter text-white mb-6">
-            DEXA<span class="text-orange-500">THALAS</span>
+        <!-- Logo dan Teks di Footer (Ukuran Logo Diperbesar Signifikan) -->
+        <div class="flex justify-center items-center space-x-2 mb-6">
+            <img src="assets/images/logo-dexathalas.png" alt="Dexathalas Logo" class="h-16 md:h-20 w-auto">
+            <div class="text-2xl font-extrabold tracking-tighter text-white">
+                DEXA<span class="text-orange-500">THALAS</span>
+            </div>
         </div>
         <p class="text-slate-500 text-sm">&copy; 2024 Dexathalas Aquaculture. All Rights Reserved.</p>
         <p class="text-slate-600 text-xs mt-2 italic">Crafted by Adhim, Zhorif, Aries, Ardika, & Hafizh Ayom.</p>
@@ -271,6 +275,4 @@
     <!-- File JavaScript Eksternal -->
     <script src="js/script.js"></script>
 </body>
-
 </html>
-
